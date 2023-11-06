@@ -1,6 +1,7 @@
-while True:
-    try:
-        A, B = map(int, input().split())
-        print(A+B)
-    except:
-        break
+n = int(input())
+for i in range(n):
+    for j in range(n-i-1):
+        print(" ",end='')
+    for j in range(i+1):
+        print("*",end='')
+    print()
