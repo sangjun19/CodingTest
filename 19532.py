@@ -1,7 +1,2 @@
 a, b, c, d, e, f = map(int, input().split())
-small = min(a, d)
-while True:
-    if small % a == 0 and small % d == 0:
-        break
-    small += 1
-print(small)
+print((c*e - b*f)//(a*e - b*d), (a*f - d*c)//(a*e - b*d))
